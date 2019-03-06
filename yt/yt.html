@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="styles/lib/normalize.css" type="text/css" rel="stylesheet">
+    <title>YouTube Knock-off</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="left-menu">
+                <a href="#"><img id="menulist" src="listmenu.png"></a>
+                <a href="#"><img id="ytlogo" src="youtubelogo.png"></a>
+            </div>
+
+            <div class="srchbar">
+                <form class="searchbar">
+                    <input type="text" placeholder="Search" name="Search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="right-menu">
+                <li><a href="#"><i class="fa fa-video-camera" style="font-size:18px"></i></a></li>
+                <li><a href="#"><i class="fa fa-television" style="font-size:18px"></i></a></li>
+                <li><a href="#"><i class="fa fa-commenting-o" style="font-size:18px"></i></a></li>
+                <li><a href="#"><i class="fa fa-bell-o" style="font-size:18px"></i></a></li>
+                <li><a href="#"><i id="user" class="fa fa-user-circle-o" style="font-size:24px"></i></a></li>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="section-container">
+        <div class="ytvideo">
+            <iframe width="1200" height="540" src="https://www.youtube.com/embed/3S5g2DlKzlw" frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>   
+        </div>
+
+        <div class="description">
+
+            <p id="p-description">While She Sleeps - Elephant</p>
+            <span id="views">1,400,345 Views</span>
+            <p id="pright"><i class="fa fa-ellipsis-h"></i></p>
+            <p id="pright"><i class="fa fa-check-square-o"></i> SAVE</p>
+            <p id="pright"><i class="fa fa-share"></i> SHARE</p>
+            <p class="bottomborder" id="pright"><i class="fa fa-thumbs-down"></i> 1K</p>
+            <p class="bottomborder" id="pright"><i class="fa fa-thumbs-up" style="color:rgb(33, 127, 204);"></i> 15K</p>
+        </div>
+
+        <div class="subscribe">
+
+            <img src="wsss.jpg">
+
+            <div class="btn-padding">
+                <button class="btn" type="submit">SUBSCRIBE 1M</button>
+            </div>
+
+                <p id="wss">While She Sleeps</p>
+                <p id="published">Published on Feb 24, 2019</p>
+            <div class="show-more">
+
+                <button id="showmore" type="button">SHOW MORE</button>
+
+            </div>
+        </div>
+
+        <div class="comments">
+
+            <span id="comment">2 Comments</span>
+            <span id="sortby"><i class="fa fa-sort-amount-asc"></i>SORT BY</span>
+
+            <div class="addcomment">
+
+                <img src="aeour.jpg">
+                <input type="text" placeholder="Add a public comment...">
+            </div>
+            <img id="image" src="aeour.jpg">
+            <span id="Aeour">Aeour</span>
+            <span id="day">4 days ago</span>
+            <p id="cool">Fascinating work</p>
+
+            <div class="likes">
+                <span><i class="fa fa-thumbs-up"></i>100K</span>
+                <span><i class="fa fa-thumbs-down"></i> 1</span>
+                <span>REPLY</span>
+            </div>
+
+                <img id="image" src="H.png">
+                <span id="Aeour">Evan</span>
+                <span id="day">13 days ago</span>
+                <p id="cool">Incredible album, looking forward to the show!</p>
+
+            <div class="likes">
+                <span><i class="fa fa-thumbs-up"></i>  420K</span>
+                <span><i class="fa fa-thumbs-down"></i>  1</span>
+                <span>REPLY</span>
+            </div>  
+        </div>
+
+        <div class="sidebar">
+
+            <span id="upnext">Up Next</span>
+            <span id="floatright">AUTOPLAY <i id="autoplay" class="fa fa-toggle-off" style="font-size:22px"></i></span>
+
+            <li>
+                <img src="hqdefault.webp">
+                <h5 id="h5">Holding Absence - Perish</h4>
+                <h6 id="h6">SharpTone Records <i class="fa fa-music"></i></h5>
+                <h6 id="h6">1M Views</h5>
+            </li>
+
+            <li>
+                <img src="mts.webp">
+                <h5 id="h5">Make Them Suffer - 27</h5>
+                <h6 id="h6">MTS <i class="fa fa-music"></i></h6>
+                <h6 id="h6">2M Views</h6>
+            </li>
+
+            <li>
+                <img src="annisokay.webp">
+                <h5 id="h5">Annisokay - nihilist blues (BMTH cover)</h5>
+                <h6 id="h6">Annisokay <i class="fa fa-music"></i></h6>
+                <h6 id="h6">540K Views</h6>
+            </li>
+
+            <li>
+                <img src="Selection_004.png">
+                <h5 id="h5" >Childish Gambino - Feels Like Summer</h4>
+                <h6 id="h6">Donald Glover <i class="fa fa-music"></i></h5>
+                <h6 id="h6">75M Views</h5>
+            </li>
+
+            <li>
+                <img src="technicolor.webp">
+                <h5 id="h5">The Brave - Technicolor</h5>
+                <h6 id="h6">UNFD <i class="fa fa-music"></i></h6>
+                <h6 id="h6">300K Views</h6>
+            </li>
+
+            <li>
+                <img src="daron.webp">
+                <h5 id="h5">Scars on Broadway - Guns Are Loaded</h5>
+                <h6 id="h6">Scars on Broadway <i class="fa fa-music"></i></h6>
+                <h6 id="h6">200K Views</h6>
+            </li>
+
+            <li>
+                <img src="fronz.webp">
+                <h5 id="h5">Attila - Bad Habits</h5>
+                <h6 id="h6">Attila <i class="fa fa-music"></i></h6>
+                <h6 id="h6">440K Views</h6>
+            </li>
+        </div>
+
+    </section>
+
+</body>
